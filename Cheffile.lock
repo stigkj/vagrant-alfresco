@@ -1,0 +1,40 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    aws (0.99.1)
+    database (1.1.4)
+      aws (>= 0.0.0)
+      mysql (>= 1.2.0)
+      postgresql (>= 0.0.0)
+      xfs (>= 0.0.0)
+    imagemagick (0.2.2)
+    java (1.4.2)
+    mysql (1.2.4)
+      openssl (>= 0.0.0)
+    openoffice (0.2.0)
+      java (>= 0.0.0)
+    openssl (1.0.0)
+    postgresql (0.99.4)
+      openssl (>= 0.0.0)
+    swftools (0.2.0)
+    tomcat (0.10.4)
+      java (>= 0.0.0)
+    xfs (1.0.0)
+
+GIT
+  remote: git://github.com/fnichol/chef-alfresco.git
+  ref: d90c7971c91395e5ed61d311c95825fb316e3bc0
+  sha: d90c7971c91395e5ed61d311c95825fb316e3bc0
+  specs:
+    alfresco (0.1.1)
+      database (>= 0.0.0)
+      imagemagick (>= 0.0.0)
+      java (>= 0.0.0)
+      mysql (>= 0.0.0)
+      openoffice (>= 0.0.0)
+      swftools (>= 0.0.0)
+      tomcat (>= 0.0.0)
+
+DEPENDENCIES
+  alfresco (>= 0)
+
