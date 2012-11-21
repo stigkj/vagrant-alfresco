@@ -1,6 +1,7 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
+    apt (1.5.0)
     aws (0.99.1)
     database (1.1.4)
       aws (>= 0.0.0)
@@ -37,4 +38,5 @@ GIT
 
 DEPENDENCIES
   alfresco (>= 0)
+  apt (>= 0)
 
