@@ -1,5 +1,5 @@
 site 'http://community.opscode.com/api/v1'
 cookbook 'apt'
 cookbook 'alfresco',
-  :git => 'git://github.com/fnichol/chef-alfresco.git',
-  :ref => 'd90c7971c91395e5ed61d311c95825fb316e3bc0'
+  :git => 'git://github.com/robblovell/chef-alfresco.git',
+  :ref => '3cbca36d25fca03a9183d27ddf24974962e0a1dc'
